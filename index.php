@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="./css.css"></link>
     </head>
     <body>
+        just from here :(
         <?php
             include "database.php";
             include "fun.php";
