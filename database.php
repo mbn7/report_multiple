@@ -2,7 +2,7 @@
     class Database {
 
         public static function connectDB(){
-            return new mysqli("localhost", "root", "", "report");
+            return new mysqli("database-2.cxhjizeo3am3.ap-northeast-1.rds.amazonaws.com", "admin", "!qw23er45T", "report");
         }
         
         public static function sqlQuery($sql){
